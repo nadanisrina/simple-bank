@@ -1,0 +1,2 @@
+make createdb
+make dropdb 
