@@ -16,4 +16,7 @@ migratedown:
 connectpsql: 
 	 psql -h localhost -p 5432 -U postgres
 
-.PHONY: postgres createdb dropdb migrateup migratedown connectpsql
+sqlc: 
+	sqlc generate
+
+.PHONY: postgres createdb dropdb migrateup migratedown connectpsql sqlc
