@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - path: "./db/sqlc"
+  - path: "./db/sqlc/"
     name: "db" #tell name of package
     engine: "postgresql"
     schema: "./db/migration/"
